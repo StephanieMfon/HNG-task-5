@@ -27,7 +27,7 @@ const uploadFile = async (req, res) => {
 const getFile = async (req, res) => {
 	const uniqueName = req.params.uniqueName;
 
-	if (!req.param.uniqueFileName) {
+	if (!req.params.uniqueName) {
 		res.status(400).json({
 			status: "Failed",
 			message: "File does not exist",
