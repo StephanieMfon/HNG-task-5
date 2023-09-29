@@ -1,0 +1,33 @@
+{
+	"name": "hng-task-5",
+	"version": "1.0.0",
+	"description": "This is a built for video uploads and rendering",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon app.js"
+	},
+	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/StephanieMfon/HNG-task-5.git"
+	},
+	"keywords": [
+		"Video",
+		"Uploads",
+		"Rendering"
+	],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"cloudinary": "^1.41.0",
+		"cors": "^2.8.5",
+		"dotenv": "^16.3.1",
+		"express": "^4.18.2",
+		"helmet": "^7.0.0",
+		"http-errors": "^2.0.0",
+		"http-status": "^1.7.0",
+		"morgan": "^1.10.0",
+		"multer": "^1.4.5-lts.1",
+		"nodemon": "^3.0.1"
+	}
+}
